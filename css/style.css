@@ -366,7 +366,17 @@
   padding: 1.6rem;
 }
 
+.gallery-item {
+  overflow: hidden;
+}
+
 .gallery-item img {
   display: block;
   width: 100%;
+
+  transition: all 0.3s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
