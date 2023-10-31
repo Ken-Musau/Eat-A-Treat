@@ -222,7 +222,7 @@
   border-radius: 11px;
 
   overflow: hidden;
-  transition: all 0.4s;
+  /* transition: all 0.4s; */
 }
 
 .meal:hover {
